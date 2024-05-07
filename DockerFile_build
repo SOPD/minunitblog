@@ -6,4 +6,3 @@ WORKDIR /app
 COPY . /app/
 RUN npm add -D vitepress  
 RUN npm run docs:build
- 

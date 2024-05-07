@@ -1,0 +1,5 @@
+FROM node:lts-alpine AS builder
+WORKDIR /app 
+VOLUME [ "/app" ]
+ENTRYPOINT ["sh","run.sh"]
+EXPOSE 5173

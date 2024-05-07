@@ -4,12 +4,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "minunit",
   description: "docs docs",
+host:"0.0.0.0",
+port:5174,
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
 
     ],
+
 
     sidebar: [
       {

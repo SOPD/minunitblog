@@ -3,7 +3,7 @@
     "vitepress": "^1.1.4"
   },
   "scripts": {
-    "docs:dev": "vitepress dev minunit",
+    "docs:dev": "vitepress dev minunit --host 0.0.0.0 --port 5173",
     "docs:build": "vitepress build minunit",
     "docs:preview": "vitepress preview minunit"
   }
